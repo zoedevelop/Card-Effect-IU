@@ -29,14 +29,14 @@ body{
     padding: 40px 30px;
     background: #ebf5fc;
     border-radius: 40px;
-    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
-                    6px 6px 20px rgba(0, 0, 0, .1)
+    box-shadow: -16px -16px 25px rgba(0, 102, 255, 0.26),
+                16px 16px 20px rgba(253, 30, 0, 0.1)
 }
 
 .container .card:hover{
     
-    box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
-                  inset  6px 6px 20px rgba(0, 0, 0, 0.05)
+    box-shadow: inset -16px -16px 24px rgba(4, 0, 255, 0.164),
+                  inset  16px 16px 24px rgba(247, 142, 142, 0.05)
 }
 
 .container .card .imgBx{
@@ -90,12 +90,12 @@ max-width: 120px;
 }
 .container .card a:hover span{
     display: block;
-    transform: scale(0.98);
+    transform: scale(0.90);
 }
 
 .container .card:hover .imgBx,
 .container .card:hover .contentBx{
-    transform: scale(0.98);
+    transform: scale(0.90);
 }
 
 
